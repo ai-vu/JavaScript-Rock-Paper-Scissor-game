@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RockPaper.css">  
+    <title> Rock Paper Scissors </title>
+</head>
+<body>
+    
+    <section class="game">
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="intro">
+            <h1>Rock Paper Scissors</h1>
+            <button>PLAY</button>
+        </div>
+
+        <div class="match fadeOut">
+            <h2 class="winner">Choose an option</h2>
+            <div class="hands">
+                <img class="playerHand" src="http://users.metropolia.fi/~giangv/JS%202/rock.png" alt="">
+                <img class="computerHand" src="http://users.metropolia.fi/~giangv/JS%202/rock.png" alt="">
+            </div>
+            <div class="options">
+                <button id="rock" class="rock">rock</button>
+                <button id="paper" class="paper">paper</button>
+                <button id="scissors" class="scissors">scissors</button>
+            </div>
+        </div>
+
+        <div class="result">
+            <div class="resultText"></div>
+            <div class="scoreText"></div>
+            <button>PLAY AGAIN</button>
+        </div>
+
+    </section>
+
+    <script src="RockPaper.js"></script>
+</body>
+</html>
+
